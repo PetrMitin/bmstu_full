@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="n1.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <CursorPos X="22" Y="23"/>
+        <UsageCount Value="118"/>
+        <Loaded Value="True"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="11">
+      <Position>
+        <Filename Value="n1.lpr"/>
+        <Caret Line="38" Column="51" TopLine="18"/>
+      </Position>
+      <Position>
+        <Filename Value="n1.lpr"/>
+        <Caret Line="3" Column="16"/>
+      </Position>
+      <Position>
+        <Filename Value="n1.lpr"/>
+        <Caret Line="9" Column="32"/>
+      </Position>
+      <Position>
+        <Filename Value="n1.lpr"/>
+        <Caret Line="22" Column="18" TopLine="10"/>
+      </Position>
+      <Position>
+        <Filename Value="n1.lpr"/>
+        <Caret Line="40" Column="27" TopLine="17"/>
+      </Position>
+      <Position>
+        <Filename Value="n1.lpr"/>
+        <Caret Line="32" Column="54" TopLine="17"/>
+      </Position>
+      <Position>
+        <Filename Value="n1.lpr"/>
+        <Caret Line="67" Column="33" TopLine="51"/>
+      </Position>
+      <Position>
+        <Filename Value="n1.lpr"/>
+        <Caret Line="44" Column="38" TopLine="31"/>
+      </Position>
+      <Position>
+        <Filename Value="n1.lpr"/>
+        <Caret Line="20" Column="40" TopLine="8"/>
+      </Position>
+      <Position>
+        <Filename Value="n1.lpr"/>
+        <Caret Line="65" Column="20" TopLine="52"/>
+      </Position>
+      <Position>
+        <Filename Value="n1.lpr"/>
+        <Caret Line="64" Column="16" TopLine="51"/>
+      </Position>
+      <Position>
+        <Filename Value="n1.lpr"/>
+        <Caret Line="69" Column="20" TopLine="33"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

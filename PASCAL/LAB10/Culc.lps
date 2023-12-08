@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="Culc.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <CursorPos X="42" Y="11"/>
+        <UsageCount Value="23"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="c_unit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="C_unit"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <CursorPos X="28" Y="75"/>
+        <UsageCount Value="23"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="initialscreen.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="InitialScreen"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="InitialScreen_unit"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="33" Y="6"/>
+        <UsageCount Value="21"/>
+      </Unit>
+      <Unit>
+        <Filename Value="addrecords.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="AddRecords_unit"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="21"/>
+        <UsageCount Value="21"/>
+      </Unit>
+      <Unit>
+        <Filename Value="searchrecords.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="SearchRecords_unit"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="24"/>
+        <UsageCount Value="21"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="-1"/>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

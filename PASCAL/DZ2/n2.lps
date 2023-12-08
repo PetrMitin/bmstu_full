@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="n2.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="24"/>
+        <CursorPos X="6" Y="38"/>
+        <UsageCount Value="94"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="n4module.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="N4Module"/>
+        <EditorIndex Value="1"/>
+        <CursorPos X="18" Y="8"/>
+        <UsageCount Value="94"/>
+        <Loaded Value="True"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="11">
+      <Position>
+        <Filename Value="n2.lpr"/>
+        <Caret Line="7" Column="15"/>
+      </Position>
+      <Position>
+        <Filename Value="n2.lpr"/>
+        <Caret Line="5" Column="49"/>
+      </Position>
+      <Position>
+        <Filename Value="n2.lpr"/>
+        <Caret Line="49" Column="57" TopLine="28"/>
+      </Position>
+      <Position>
+        <Filename Value="n4module.pas"/>
+        <Caret Line="9" Column="61"/>
+      </Position>
+      <Position>
+        <Filename Value="n4module.pas"/>
+        <Caret Line="14" Column="3"/>
+      </Position>
+      <Position>
+        <Filename Value="n4module.pas"/>
+        <Caret Line="11" Column="15"/>
+      </Position>
+      <Position>
+        <Filename Value="n4module.pas"/>
+        <Caret Line="13" Column="25"/>
+      </Position>
+      <Position>
+        <Filename Value="n4module.pas"/>
+        <Caret Line="12" Column="11"/>
+      </Position>
+      <Position>
+        <Filename Value="n4module.pas"/>
+        <Caret Line="16" Column="43"/>
+      </Position>
+      <Position>
+        <Filename Value="n4module.pas"/>
+        <Caret Line="10" Column="21"/>
+      </Position>
+      <Position>
+        <Filename Value="n4module.pas"/>
+        <Caret Line="7" Column="21"/>
+      </Position>
+      <Position>
+        <Filename Value="n4module.pas"/>
+        <Caret Line="11"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

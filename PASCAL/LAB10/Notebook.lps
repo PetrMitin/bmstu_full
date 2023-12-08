@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="Notebook.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="203"/>
+      </Unit>
+      <Unit>
+        <Filename Value="initial_screen.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <CursorPos X="3" Y="11"/>
+        <UsageCount Value="203"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="add_record.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form2"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="15"/>
+        <CursorPos X="15" Y="32"/>
+        <UsageCount Value="203"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="search_record.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form3"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="32"/>
+        <CursorPos X="25" Y="9"/>
+        <UsageCount Value="203"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="types.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="11"/>
+        <UsageCount Value="203"/>
+      </Unit>
+      <Unit>
+        <Filename Value="custom_types.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="4"/>
+        <CursorPos X="42" Y="17"/>
+        <UsageCount Value="203"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="C:\lazarus\fpc\3.2.2\source\rtl\win64\classes.pp"/>
+        <UnitName Value="Classes"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="2"/>
+        <CursorPos X="35" Y="14"/>
+        <UsageCount Value="101"/>
+        <Loaded Value="True"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="20">
+      <Position>
+        <Filename Value="add_record.pas"/>
+        <Caret Line="26" Column="20" TopLine="4"/>
+      </Position>
+      <Position>
+        <Filename Value="search_record.pas"/>
+      </Position>
+      <Position>
+        <Filename Value="add_record.pas"/>
+        <Caret Line="26" Column="20" TopLine="4"/>
+      </Position>
+      <Position>
+        <Filename Value="add_record.pas"/>
+        <Caret Line="27" Column="20" TopLine="4"/>
+      </Position>
+      <Position>
+        <Filename Value="add_record.pas"/>
+        <Caret Line="26" Column="20" TopLine="4"/>
+      </Position>
+      <Position>
+        <Filename Value="add_record.pas"/>
+        <Caret Line="28" Column="20" TopLine="5"/>
+      </Position>
+      <Position>
+        <Filename Value="add_record.pas"/>
+        <Caret Line="45" Column="3" TopLine="25"/>
+      </Position>
+      <Position>
+        <Filename Value="search_record.pas"/>
+        <Caret Line="18" Column="32"/>
+      </Position>
+      <Position>
+        <Filename Value="search_record.pas"/>
+        <Caret Line="45" Column="3" TopLine="25"/>
+      </Position>
+      <Position>
+        <Filename Value="initial_screen.pas"/>
+        <Caret Line="65" Column="21" TopLine="53"/>
+      </Position>
+      <Position>
+        <Filename Value="search_record.pas"/>
+        <Caret Line="58" Column="7" TopLine="20"/>
+      </Position>
+      <Position>
+        <Filename Value="search_record.pas"/>
+        <Caret Line="37" Column="28" TopLine="28"/>
+      </Position>
+      <Position>
+        <Filename Value="initial_screen.pas"/>
+        <Caret Line="37" Column="33" TopLine="30"/>
+      </Position>
+      <Position>
+        <Filename Value="initial_screen.pas"/>
+        <Caret Line="56" Column="20" TopLine="44"/>
+      </Position>
+      <Position>
+        <Filename Value="add_record.pas"/>
+        <Caret Line="38" Column="17" TopLine="23"/>
+      </Position>
+      <Position>
+        <Filename Value="search_record.pas"/>
+        <Caret Line="18" Column="6" TopLine="7"/>
+      </Position>
+      <Position>
+        <Filename Value="initial_screen.pas"/>
+        <Caret Line="36" Column="6" TopLine="20"/>
+      </Position>
+      <Position>
+        <Filename Value="initial_screen.pas"/>
+        <Caret Line="38" Column="9" TopLine="25"/>
+      </Position>
+      <Position>
+        <Filename Value="initial_screen.pas"/>
+        <Caret Line="11" Column="3"/>
+      </Position>
+      <Position>
+        <Filename Value="custom_types.pas"/>
+      </Position>
+      <Position>
+        <Filename Value="custom_types.pas"/>
+        <Caret Line="17" Column="18"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="n1.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <CursorPos X="45" Y="22"/>
+        <UsageCount Value="21"/>
+        <Loaded Value="True"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="4">
+      <Position>
+        <Filename Value="n1.lpr"/>
+        <Caret Line="43" Column="9" TopLine="6"/>
+      </Position>
+      <Position>
+        <Filename Value="n1.lpr"/>
+        <Caret Line="3" Column="26"/>
+      </Position>
+      <Position>
+        <Filename Value="n1.lpr"/>
+        <Caret Line="11" Column="32"/>
+      </Position>
+      <Position>
+        <Filename Value="n1.lpr"/>
+        <Caret Line="31" Column="27" TopLine="13"/>
+      </Position>
+      <Position>
+        <Filename Value="n1.lpr"/>
+        <Caret Line="41" Column="31" TopLine="26"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

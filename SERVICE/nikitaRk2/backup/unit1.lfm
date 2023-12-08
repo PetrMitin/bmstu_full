@@ -1,0 +1,39 @@
+object Form1: TForm1
+  Left = 1103
+  Height = 289
+  Top = 522
+  Width = 437
+  Caption = 'Form1'
+  ClientHeight = 240
+  ClientWidth = 437
+  DesignTimePPI = 120
+  Menu = MainMenu1
+  LCLVersion = '2.2.2.0'
+  object Memo1: TMemo
+    Left = 40
+    Height = 145
+    Top = 40
+    Width = 225
+    TabOrder = 0
+  end
+  object MainMenu1: TMainMenu
+    Left = 360
+    Top = 32
+    object MenuItem4: TMenuItem
+      Caption = 'Ввод файла'
+      OnClick = MenuItem4Click
+    end
+    object MenuItem1: TMenuItem
+      Caption = 'Поиск по цене'
+      OnClick = MenuItem1Click
+    end
+    object MenuItem2: TMenuItem
+      Caption = 'Сортировка'
+      OnClick = MenuItem2Click
+    end
+    object MenuItem3: TMenuItem
+      Caption = 'Количество по категории'
+      OnClick = MenuItem3Click
+    end
+  end
+end

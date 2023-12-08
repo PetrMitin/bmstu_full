@@ -1,0 +1,97 @@
+object Form3: TForm3
+  Left = 1346
+  Height = 317
+  Top = 66
+  Width = 607
+  Caption = 'Искать записи'
+  ClientHeight = 317
+  ClientWidth = 607
+  DesignTimePPI = 120
+  LCLVersion = '2.2.2.0'
+  object StaticText1: TStaticText
+    Left = 160
+    Height = 21
+    Top = 72
+    Width = 81
+    Caption = 'Фамилия'
+    TabOrder = 0
+  end
+  object StaticText2: TStaticText
+    Left = 160
+    Height = 21
+    Top = 120
+    Width = 81
+    Caption = 'Имя'
+    TabOrder = 1
+  end
+  object StaticText3: TStaticText
+    Left = 160
+    Height = 21
+    Top = 168
+    Width = 81
+    Caption = 'Телефон'
+    TabOrder = 2
+  end
+  object StaticText4: TStaticText
+    Left = 160
+    Height = 21
+    Top = 217
+    Width = 81
+    Caption = 'Адрес'
+    TabOrder = 3
+  end
+  object Button1: TButton
+    Left = 208
+    Height = 31
+    Top = 272
+    Width = 126
+    Caption = 'Искать запись'
+    OnClick = Button1Click
+    TabOrder = 4
+  end
+  object Button2: TButton
+    Left = 360
+    Height = 31
+    Top = 272
+    Width = 118
+    Caption = 'Закрыть'
+    OnClick = Button2Click
+    TabOrder = 5
+  end
+  object Edit1: TEdit
+    Left = 296
+    Height = 28
+    Top = 72
+    Width = 236
+    TabOrder = 6
+  end
+  object Edit2: TEdit
+    Left = 296
+    Height = 28
+    Top = 120
+    Width = 236
+    TabOrder = 7
+  end
+  object Edit3: TEdit
+    Left = 296
+    Height = 28
+    Top = 168
+    Width = 236
+    TabOrder = 8
+  end
+  object Edit4: TEdit
+    Left = 296
+    Height = 28
+    Top = 217
+    Width = 236
+    TabOrder = 9
+  end
+  object StaticText5: TStaticText
+    Left = 199
+    Height = 21
+    Top = 37
+    Width = 201
+    Caption = 'Искать записи по фамилии'
+    TabOrder = 10
+  end
+end

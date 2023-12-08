@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RK1</title>
+</head>
+<body>
+    <h1>Митин Пётр Алексеевич, ИУ6-34Б. Вариант 17. 
+        Дан массив чисел arr_c. 
+        Найти сумму элементов, кратных 15, и поместить её на место первого отрицательного элемента.
+    </h1>
+    <form>
+        <label>
+        <h2>Введите массив</h2>
+        <textarea rows="5" cols="50" id="input-area" placeholder="Введите числа через пробел">1 -1 0 15 30 41</textarea>
+        </label>
+        <br/>
+        <button type="button" onclick="handleSubmit()">Обработать ввод</button>
+    </form>
+    <h2>Вывод</h2>
+    <div id="output-area"></div>
+</body>
+<script>
+    function transformArray(arrString) {
+        const arr = arrString.split(' ').map(elem => {
+            const floatElem = parseFloat(elem)
+            if (isNaN(floatElem)) throw new Error('Некорректный ввод!')
+            return floatElem
+        })
+        let sumDiv15 = 0;
+        for (let i = 0; i < arr.length; i++) {
+            sumDiv15 += arr[i] % 15 == 0 ? arr[i] : 0
+        }
+        const indexOfFirstNegative = arr.findIndex(elem => elem < 0)
+        if (indexOfFirstNegative !== -1) {
+            arr[indexOfFirstNegative] = sumDiv15;
+            return arr.join(' ')
+        } else {
+            return 'Некорректный ввод! Отрицательных чисел нет!'
+        }
+    }
+
+    function handleSubmit() {
+        const inputArea = document.getElementById('input-area')
+        const outputArea = document.getElementById('output-area')
+        try {
+            outputArea.innerHTML = ''
+            const input = inputArea.value
+            const output = transformArray(input)
+            outputArea.innerHTML = `Ввод: ${input}<br/> Вывод: ${output}`
+        } catch (e) {
+            console.log(e);
+            outputArea.innerHTML = 'Произошла ошибка! Проверьте корректность ввода!'
+        }
+    }
+</script>
+</html>

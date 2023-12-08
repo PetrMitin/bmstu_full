@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="n1.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Project1"/>
+        <IsVisibleTab Value="True"/>
+        <CursorPos X="25" Y="8"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="11">
+      <Position>
+        <Filename Value="n1.lpr"/>
+        <Caret Line="5" Column="20"/>
+      </Position>
+      <Position>
+        <Filename Value="n1.lpr"/>
+        <Caret Line="6" Column="7"/>
+      </Position>
+      <Position>
+        <Filename Value="n1.lpr"/>
+        <Caret Line="8" Column="21"/>
+      </Position>
+      <Position>
+        <Filename Value="n1.lpr"/>
+        <Caret Line="6" Column="13"/>
+      </Position>
+      <Position>
+        <Filename Value="n1.lpr"/>
+        <Caret Line="8" Column="25"/>
+      </Position>
+      <Position>
+        <Filename Value="n1.lpr"/>
+        <Caret Line="9" Column="32"/>
+      </Position>
+      <Position>
+        <Filename Value="n1.lpr"/>
+        <Caret Line="13" Column="38"/>
+      </Position>
+      <Position>
+        <Filename Value="n1.lpr"/>
+        <Caret Line="5" Column="16"/>
+      </Position>
+      <Position>
+        <Filename Value="n1.lpr"/>
+        <Caret Line="4" Column="35"/>
+      </Position>
+      <Position>
+        <Filename Value="n1.lpr"/>
+        <Caret Line="14"/>
+      </Position>
+      <Position>
+        <Filename Value="n1.lpr"/>
+        <Caret Line="13"/>
+      </Position>
+      <Position>
+        <Filename Value="n1.lpr"/>
+        <Caret Line="12" Column="33"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+  <Debugging>
+    <Watches>
+      <Item>
+        <Expression Value="A"/>
+      </Item>
+      <Item>
+        <Expression Value="B"/>
+      </Item>
+      <Item>
+        <Expression Value="C"/>
+      </Item>
+      <Item>
+        <Expression Value="D"/>
+      </Item>
+      <Item>
+        <Expression Value="E"/>
+      </Item>
+      <Item>
+        <Expression Value="X1"/>
+      </Item>
+      <Item>
+        <Expression Value="x2"/>
+      </Item>
+    </Watches>
+  </Debugging>
+</CONFIG>
