@@ -1,0 +1,11 @@
+table {
+    height: 700px;
+    width: 1000px;
+}
+
+td {
+    border: 1px solid black;
+    min-width: 50px;
+    min-height: 100px;
+    text-align: center;
+}

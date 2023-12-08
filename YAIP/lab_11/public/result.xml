@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects type="array">
+  <object>
+    <n type="integer">12</n>
+    <m type="integer">9</m>
+    <nok type="integer">36</nok>
+    <nod type="integer">3</nod>
+  </object>
+  <object>
+    <n type="integer">12</n>
+    <m type="integer">4</m>
+    <nok type="integer">12</nok>
+    <nod type="integer">4</nod>
+  </object>
+  <object>
+    <n type="integer">12</n>
+    <m type="integer">3</m>
+    <nok type="integer">12</nok>
+    <nod type="integer">3</nod>
+  </object>
+  <object>
+    <n type="integer">100</n>
+    <m type="integer">15</m>
+    <nok type="integer">300</nok>
+    <nod type="integer">5</nod>
+  </object>
+  <object>
+    <n type="integer">28</n>
+    <m type="integer">14</m>
+    <nok type="integer">28</nok>
+    <nod type="integer">14</nod>
+  </object>
+  <object>
+    <n type="integer">30</n>
+    <m type="integer">16</m>
+    <nok type="integer">240</nok>
+    <nod type="integer">2</nod>
+  </object>
+</objects>

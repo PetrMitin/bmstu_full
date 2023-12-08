@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="ru">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <meta name="viewport"
+         content="width=device-width, initial-scale=1.0">
+      <title>ICS6 Bootstrap</title>
+      <link rel="stylesheet" href="lab2.1.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+      <style>
+         html {
+            position: relative;
+            min-height: 100%;
+         }
+         body {
+            margin-bottom: 40px;
+         }
+         main {
+            margin-top: 15px;
+         }
+         footer {
+            height: 40px;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+         }
+         .my-primary {
+            background-color: #1A237E;
+            color: white;
+         }
+      </style>
+    <script>
+        function greet() {
+            const name = document.getElementById('name').value
+            const city = document.getElementById('city').value
+            const date = (new Date()).toString()
+            console.log(name, city);
+            document.getElementById('name-greeting').innerText = `Рад встрэче, дарагой ${name}!`
+            document.getElementById('city-greeting').innerText = `${city} - замэчатэльный город!`
+            document.getElementById('date-greeting').innerText = `Сэйчас замечатэльный дата - ${date}`
+        }
+    </script>
+   </head>
+   <body>
+      <header>
+         <nav class="navbar navbar-expand-lg navbar-dark my-primary">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <ul class="navbar-nav mr-auto">
+               <li class="nav-item active">
+                  <a class="nav-link" href="#">Home
+                  <span class="sr-only">(current)</span>
+                  </a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+               </li>
+            </ul>
+         </nav>
+      </header>
+      <main class="container">
+         <div class="row">
+            <div class="col-4">
+               <img
+                  src=" http://e-learning.bmstu.ru/moodle/pluginfile.php/7546/mod_folder/content/0/avatar.jpg"
+                  alt="avatar" width="150" height="150">
+            </div>
+            <div class="col-8">
+               <p>Любой текст</p>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-6">
+                <form method="post">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td colspan="6"><h3>ЗАХАДЫ ДАРАГОЙ</h3></td>
+                            </tr>
+                            <tr>
+                                <td colspan="3">
+                                    <label>
+                                        КАК ЗВАТ? <br>
+                                        <input type="text" placeholder="ТВОЙ ИМЯ ДАРАГОЙ" id="name" class="form-control" />
+                                    </label>
+                                </td>
+                                <td colspan="3">
+                                    <label>
+                                        ОТКУДА САМ?<br>
+                                        <input type="text" placeholder="ТВОЙ ГОРОД ДАРАГОЙ" id="city" class="form-control" />
+                                    </label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="6">
+                                    <button type="button" onclick="greet()" class="btn btn-primary">ЗАХАДЫТ</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" id="name-greeting"></td>
+                                <td colspan="2" id="city-greeting"></td>
+                                <td colspan="2" id="date-greeting"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </form>
+            </div>
+            <div class="col-4">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col"></th>
+                            <th scope="col"></th>
+                            <th scope="col">Пн</th>
+                            <th scope="col">Вт</th>
+                            <th scope="col">Ср</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td rowspan="2">8:30-10:05</td>
+                            <td>Чс</td>
+                            <td rowspan="2">-</td>
+                            <td>Электр (лаб.)</td>
+                            <td rowspan="2">Физика (лек.)</td>
+                        </tr>
+                        <tr>
+                            <td>Зн</td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="2">10:15-11:50</td>
+                            <td>Чс</td>
+                            <td rowspan="2">ТВиМС (лек.)</td>
+                            <td>Электр (лаб.)</td>
+                            <td rowspan="2">Электр. (лек.)</td>
+                        </tr>
+                        <tr>
+                            <td>Зн</td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="2">12:00-13:35</td>
+                            <td>Чс</td>
+                            <td rowspan="2">ИЯ (сем.)</td>
+                            <td>ЯИП (лаб.)</td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <td>Зн</td>
+                            <td>-</td>
+                            <td>Электр. (сем.)</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="2">13:50-15:25</td>
+                            <td>Чс</td>
+                            <td rowspan="2">ФКиС (сем.)</td>
+                            <td>ЯИП (лаб.)</td>
+                            <td rowspan="2">ФКиС (сем.)</td>
+                        </tr>
+                        <tr>
+                            <td>Зн</td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="2">15:40-17:15</td>
+                            <td>Чс</td>
+                            <td rowspan="2">-</td>
+                            <td>БД (лаб.)</td>
+                            <td rowspan="2">-</td>
+                        </tr>
+                        <tr>
+                            <td>Зн</td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="2">17:25-19:00</td>
+                            <td>Чс</td>
+                            <td rowspan="2">-</td>
+                            <td rowspan="2">-</td>
+                            <td rowspan="2">-</td>
+                        </tr>
+                        <tr>
+                            <td>Зн</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col">
+                <p>
+                    <span class="span1">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span><br/>
+                    Nullam eget turpis. <br/>
+                    Morbi sed molestie lorem. <br/>
+                    Quisque <span class="span2">enim justo, fringilla vitae nulla eu</span>, lobortis pretium ipsum. <br/>
+                    Praesent et pharetra purus, quis malesuada erat. <br/>
+                    In sed odio velit. <br/>
+                    Suspendisse suscipit porta ipsum, pulvinar hendrerit dolor porta in. <br/>
+                    Ut hendrerit justo at tempor efficitur. <br/>
+                    Proin lobortis neque justo. Curabitur ac eros vitae lectus maximus ultricies.<br/> 
+                    Sed laoreet, neque et imperdiet egestas, lorem eros facilisis magna, id malesuada erat lorem eget felis.<br/> 
+                    Etiam libero ex, ullamcorper nec risus quis, scelerisque laoreet sapien.
+                </p>
+            </div>
+         </div>
+      </main>
+      <footer class="my-primary">
+         <div class="container">
+            <p class="footer-text">Footer</p>
+         </div>
+      </footer>
+   </body>
+</html>

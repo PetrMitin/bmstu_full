@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Товары</title>
+    <script src="./tableService.js"></script>
+    <script src="./cartService.js"></script>
+    <script src="./itemsService.js"></script>
+    <script type="text/javascript">window.onload = () => fillGrid('items')</script>
+</head>
+<body>
+    <a href="./cart.html">korZina</a>
+    <table id="items">
+        <thead>
+            <th>ID</th>
+            <th>Наименование</th>
+            <th>Цена</th>
+        </thead>
+        <tbody></tbody>
+    </table>
+    <input id="id-input" type="number" placeholder="Введите id товара для добавления в заказ" />
+    <button onclick="addToCart()">Добавить в заказ</button>
+</body>
+</html>

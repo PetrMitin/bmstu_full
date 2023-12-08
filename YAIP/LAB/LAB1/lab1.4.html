@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        html {
+            color: wheat;
+            background: url('https://www.bragazeta.ru/wp-content/uploads/2016/02/post-874.jpg');
+            background-size: 100vw 100vh;
+            background-repeat: no-repeat;
+        }
+
+        table {
+            height: 400px;
+            width: 600px;
+            margin: auto;
+            background-color: rgba(165, 42, 42, .7);
+        }
+
+        td {
+            border: 1px solid black;
+            min-width: 50px;
+            min-height: 100px;
+            text-align: center;
+        }
+    </style>
+
+    <script>
+        function greet() {
+            const name = document.getElementById('name').value
+            const city = document.getElementById('city').value
+            const date = (new Date()).toString()
+            console.log(name, city);
+            if (name.match('^[a-zA-Z]+$') && name && city) {
+                document.getElementById('name-greeting').innerText = `Рад встрэче, дарагой ${name}!`
+                document.getElementById('city-greeting').innerText = `${city} - замэчатэльный город!`
+                document.getElementById('date-greeting').innerText = `Сэйчас замечатэльный дата - ${date}`
+            } else {
+                document.getElementById('name-greeting').innerText = `Нэкоррэктный ввод, дарагой`
+                document.getElementById('city-greeting').innerText = ''
+                document.getElementById('date-greeting').innerText = ''
+
+            }
+        }
+    </script>
+
+</head>
+<body>
+    <form method="post" action="#">
+        <table>
+            <tbody>
+                <tr>
+                    <td colspan="6"><h3>ЗАХАДЫ ДАРАГОЙ</h3></td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <label>
+                            КАК ЗВАТ? <br>
+                            <input type="text" placeholder="ТВОЙ ИМЯ ДАРАГОЙ" id="name" />
+                        </label>
+                    </td>
+                    <td colspan="3">
+                        <label>
+                            ОТКУДА САМ?<br>
+                            <input type="text" placeholder="ТВОЙ ГОРОД ДАРАГОЙ" id="city" />
+                        </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="6">
+                        <button type="button" onclick="greet()">ЗАХАДЫТ</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" id="name-greeting"></td>
+                    <td colspan="2" id="city-greeting"></td>
+                    <td colspan="2" id="date-greeting"></td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+</body>
+</html>

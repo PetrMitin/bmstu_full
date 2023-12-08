@@ -1,0 +1,109 @@
+{
+  "id": "84f2454c-7d63-4476-827e-241df5345aa7",
+  "version": "2.0",
+  "name": "lab9",
+  "url": "http://127.0.0.1:3000/authomorph_numbers/input",
+  "tests": [{
+    "id": "e2e878cb-2238-4fda-9d5f-48a79c5ade2d",
+    "name": "authonumous_numbers_12",
+    "commands": [{
+      "id": "e7685f28-34db-47b3-9b21-22c0cc2c502a",
+      "comment": "",
+      "command": "open",
+      "target": "/authomorph_numbers/input",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "38281e25-757d-43a9-a704-d54fdfcfc52c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x519",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fc32e0c3-85d7-4134-83ea-37288900a48a",
+      "comment": "",
+      "command": "click",
+      "target": "id=n",
+      "targets": [
+        ["id=n", "id"],
+        ["name=n", "name"],
+        ["css=#n", "css:finder"],
+        ["xpath=//input[@id='n']", "xpath:attributes"],
+        ["xpath=//form[@id='n-input-form']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7aa97b93-d4be-4c2d-950f-bfe3e73cfef0",
+      "comment": "",
+      "command": "type",
+      "target": "id=n",
+      "targets": [
+        ["id=n", "id"],
+        ["name=n", "name"],
+        ["css=#n", "css:finder"],
+        ["xpath=//input[@id='n']", "xpath:attributes"],
+        ["xpath=//form[@id='n-input-form']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "12"
+    }, {
+      "id": "7682fb84-073d-4f1a-8486-11ea801a9255",
+      "comment": "",
+      "command": "click",
+      "target": "id=submit-button",
+      "targets": [
+        ["id=submit-button", "id"],
+        ["name=commit", "name"],
+        ["css=#submit-button", "css:finder"],
+        ["xpath=//input[@id='submit-button']", "xpath:attributes"],
+        ["xpath=//form[@id='n-input-form']/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "eeddfae5-8659-4649-9add-f3afd7956ffc",
+    "name": "authonomous_number_error",
+    "commands": [{
+      "id": "f04466b4-2ceb-47ad-83f3-0aae6d3927f1",
+      "comment": "",
+      "command": "open",
+      "target": "http://127.0.0.1:3000/authomorph_numbers/input",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "558d3e1f-dc67-4876-93ab-2fd5cd75b17a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x519",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2c8b614b-d16b-44d0-a489-fc141d308c9b",
+      "comment": "",
+      "command": "click",
+      "target": "id=submit-button",
+      "targets": [
+        ["id=submit-button", "id"],
+        ["name=commit", "name"],
+        ["css=#submit-button", "css:finder"],
+        ["xpath=//input[@id='submit-button']", "xpath:attributes"],
+        ["xpath=//form[@id='n-input-form']/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "900eebeb-55b5-45f7-8274-567b07b79e81",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["e2e878cb-2238-4fda-9d5f-48a79c5ade2d"]
+  }],
+  "urls": ["http://127.0.0.1:3000/"],
+  "plugins": []
+}
