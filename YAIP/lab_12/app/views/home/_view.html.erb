@@ -1,0 +1,43 @@
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<div class="container text-center mb-3">
+  <h1>LABA12</h1>
+  <p>Results</p>
+</div>
+
+<div class="d-flex justify-content-center">
+  <div class="d-inline-block">
+    <div class="table-responsive">
+      <table class="table">
+        <thead>
+        <tr>
+          <th>
+            Number N
+          </th>
+          <th>
+            Number M
+          </th>
+          <th>
+            NOD
+          </th>
+          <th>
+            NOK
+          </th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td><%= @n %></td>
+          <td><%= @m %></td>
+          <td><%= @nod %></td>
+          <td><%= @nok %></td>
+        </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<div class="d-flex justify-content-center mt-3">
+  <%= link_to "Repeat calculation", :home_index, class: "btn btn-primary" %>
+</div>

@@ -1,0 +1,17 @@
+<div class="d-flex justify-content-center">
+  <%= form_with url: view_path, method: :post, local: true do %>
+    <div class="input-group mb-3">
+      <label for="numberN" class="input-group-text">Number N:</label>
+      <input type="number" name="n" id="numberN" class="form-control">
+    </div>
+
+    <div class="input-group mb-3">
+      <label for="numberM" class="input-group-text">Number M:</label>
+      <input type="number" name="m" id="numberM" class="form-control">
+    </div>
+
+    <div class="d-flex justify-content-center mt-3">
+      <%= submit_tag 'Calculate', class: 'btn btn-primary' %>
+    </div>
+  <% end %>
+</div>
